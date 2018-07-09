@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  ein: MyString
+  charityName: MyString
+  accepted_categories: MyString
+  amazonWishlist: MyString
+
+two:
+  ein: MyString
+  charityName: MyString
+  accepted_categories: MyString
+  amazonWishlist: MyString
