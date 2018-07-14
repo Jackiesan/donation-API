@@ -17,7 +17,7 @@ class OrgWrapper
   private
 
   def self.construct_org(api_result, db_result)
-    DisplayOrg.new(
+    Org.new(
       ein: api_result["ein"],
       charityName: api_result["charityName"],
       url: api_result["url"],

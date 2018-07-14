@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_07_09_233429) do
+ActiveRecord::Schema.define(version: 2018_07_14_001130) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -33,6 +33,24 @@ ActiveRecord::Schema.define(version: 2018_07_09_233429) do
     t.string "charityName"
     t.string "accepted_categories"
     t.string "amazonWishlist"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "orgs", force: :cascade do |t|
+    t.string "ein"
+    t.string "charityName"
+    t.string "url"
+    t.string "donationUrl"
+    t.string "city"
+    t.string "state"
+    t.string "zipCode"
+    t.string "website"
+    t.string "missionStatement"
+    t.string "longitude"
+    t.string "latitude"
+    t.string "amazonWishlist"
+    t.string "accepted_categories"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
