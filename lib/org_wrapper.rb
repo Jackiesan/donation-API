@@ -1,4 +1,5 @@
 class OrgWrapper
+  # BASE_URL = "http://data.orghunter.com/v1/charitysearch?user_key=8e03b14d92b90af73c69df18b485c31a&ein=910564983"
   BASE_URL = "http://data.orghunter.com/v1/charitysearch"
   KEY = ENV["API_KEY"]
 
@@ -9,7 +10,7 @@ class OrgWrapper
       return []
     else
       db_org = Organization.find_by(ein:ein)
-      organization = self.construct_org(response["data"], db_org)
+      organization = self.construct_org(response["data"][0], db_org)
       return organization
     end
   end
