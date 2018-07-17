@@ -1,50 +1,50 @@
 [
 {
 "name": "Clothing",
-"image": "fashion"
+"image_url": "./images/fashion.png"
 },
 {
 "name": "Small Furniture",
-"image": "night-stand"
+"image_url": "./images/night-stand.png"
 },
 {
 "name": "Large Furniture",
-"image": "sofa"
+"image_url": "./images/sofa.png"
 },
 {
 "name": "Pet Supplies",
-"image": "dog"
+"image_url": "./images/dog.png"
 },
 {
 "name": "Small Electrical",
-"image": "iron"
+"image_url": "./images/iron.png"
 },
 {
 "name": "Large Electrical",
-"image": "electrical-appliances"
+"image_url": "./images/electrical-appliances.png"
 },
 {
 "name": "Books",
-"image": "books"
+"image_url": "./images/books.png"
 },
 {
 "name": "Hardware",
-"image": "settings"
+"image_url": "./images/settings.png"
 },
 {
 "name": "Toys",
-"image": "toys"
+"image_url": "./images/toys.png"
 },
 {
 "name": "Health and Hygiene",
-"image": "tooth-brush"
+"image_url": "./images/tooth-brush.png"
 },
 {
 "name": "Outdoor Gear",
-"image": "cycle"
+"image_url": "./images/cycle.png"
 },
 {
 "name": "Other",
-"image": "package"
+"image_url": "./images/package.png"
 }
 ]
