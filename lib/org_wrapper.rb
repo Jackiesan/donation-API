@@ -9,7 +9,7 @@ class OrgWrapper
     geo_url = GEO_URL + "?user_key=" + KEY + "&ein=" + ein
     response = HTTParty.get(url)
     geo_response = HTTParty.get(geo_url)
-    if response["code"] == 404 || second_response["code"] == 404
+    if response["code"] == 404 || geo_response["code"] == 404
       return []
     else
       db_org = Organization.find_by(ein:ein)
