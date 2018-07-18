@@ -13,7 +13,7 @@ class OrgWrapper
       return []
     else
       db_org = Organization.find_by(ein:ein)
-      organization = self.construct_org(response["data"][0], db_org, geo_response["data"][0])
+      organization = self.construct_org(response["data"][0], db_org, geo_response["data"])
       return organization
     end
   end
