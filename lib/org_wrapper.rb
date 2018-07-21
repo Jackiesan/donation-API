@@ -18,27 +18,6 @@ class OrgWrapper
     end
   end
 
-  def self.fetch_all
-    eins = Organization.all.map(&:ein)
-    organizations = []
-    eins.each do |ein|
-      organizations << self.fetch_coordinates(ein)
-    end
-    return organizations
-  end
-
-  def self.fetch_coordinates(ein)
-    geo_url = GEO_URL + "?user_key=" + KEY + "&ein=" + ein
-    geo_response = HTTParty.get(geo_url)
-
-    if geo_response["code"] == 404
-      return []
-    else
-      organization = self.construct_coordinates(geo_response["data"])
-      return organization
-    end
-  end
-  
   private
 
   def self.construct_org(api_result, db_result, geo_result)
@@ -61,11 +40,4 @@ class OrgWrapper
     )
   end
 
-  def self.construct_coordinates(geo_result)
-    Org.new(
-      ein: geo_result["ein"],
-      longitude: geo_result["longitude"],
-      latitude: geo_result["latitude"]
-    )
-  end
 end
