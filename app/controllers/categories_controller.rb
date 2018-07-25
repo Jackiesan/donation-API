@@ -1,6 +1,12 @@
 class CategoriesController < ApplicationController
   def index
-    categories = Category.all;
+    if params[:organization_id]
+      organization = Organization.find_by(id: params[:organization_id])
+      categories = organization.categories
+    else
+      categories = Category.all;
+    end
+
     render json: {status: 'SUCCESS', message: 'Loaded categories', data: categories }, status: :ok
   end
 
