@@ -3,7 +3,7 @@
 "ein": "910564983",
 "charityName": "RYTHER",
 "accepted_categories": "1, 7, 9",
-"amazonWishlist": "https://www.amazon.com/gp/registry/wishlist/20YX3W0TB3R78/ref=nav_wishlist_lists_1",
+"amazonWishlist": "https://www.amazon.com/gp/registry/wishlist/20YX3W0TB3R78",
 "longitude": "-122.303429",
 "latitude": "47.697617"
 },
@@ -96,7 +96,8 @@
 "charityName": "WELLSPRING FAMILY SERVICES",
 "accepted_categories": "1, 2, 3, 10",
 "longitude": "-122.304237",
-"latitude": "47.586319"
+"latitude": "47.586319",
+"amazonWishlist": "https://www.amazon.com/gp/registry/wishlist/39DZFDGKP2A9B"
 },
 {
 "ein": "271406157",
@@ -159,7 +160,8 @@
 "charityName": "SOCIETY OF ST VINCENT DE PAUL COUNCIL OF THE SEATTLE-KING COUNTY",
 "accepted_categories": "1, 2, 3, 5, 6, 7, 9, 10, 12",
 "longitude": "-122.329193",
-"latitude": "47.548676"
+"latitude": "47.548676",
+"amazonWishlist": "https://www.amazon.com/gp/registry/wishlist/17T0TOPYNGYEW"
 },
 {
 "ein": "911931649",
@@ -173,7 +175,8 @@
 "charityName": "BREAD OF LIFE MISSION",
 "accepted_categories": "1, 2, 3, 5, 6, 7, 9, 10, 12",
 "longitude": "-122.335571",
-"latitude": "47.600040"
+"latitude": "47.600040",
+"amazonWishlist": "https://www.amazon.com/gp/registry/wishlist/1WLWIV2BGXFX"
 },
 {
 "ein": "311705913",
@@ -292,7 +295,8 @@
 "charityName": "FULL LIFE CARE",
 "accepted_categories": "5, 7",
 "longitude": "-122.325333",
-"latitude": "47.604904"
+"latitude": "47.604904",
+"amazonWishlist": "https://www.amazon.com/gp/registry/wishlist/2HN7JNI7TQYOQ"
 },
 {
 "ein": "910828809",
@@ -496,7 +500,8 @@
 "charityName": "ORGANIZATION FOR PROSTITUTION SURVIVORS",
 "accepted_categories": "1, 10, 2, 3",
 "longitude": "-122.305840",
-"latitude": "47.602814"
+"latitude": "47.602814",
+"amazonWishlist": "https://www.amazon.com/gp/registry/wishlist/1WD685BXJUCDJ"
 },
 {
 "ein": "911289467",
@@ -552,7 +557,8 @@
 "charityName": "CHIEF SEATTLE CLUB",
 "accepted_categories": "1, 2, 3, 5, 6, 7, 9, 10, 12",
 "longitude": "-122.331131",
-"latitude": "47.601215"
+"latitude": "47.601215",
+"amazonWishlist": "https://www.amazon.com/gp/registry/wishlist/2UKA9PCMSNX4P"
 },
 {
 "ein": "510490226",
@@ -608,7 +614,8 @@
 "charityName": "SOULUMINATION",
 "accepted_categories": "7, 9",
 "longitude": "-122.371460",
-"latitude": "47.666267"
+"latitude": "47.666267",
+"amazonWishlist": "https://www.amazon.com/gp/registry/wishlist/1XRFZW9ZBY89S"
 },
 {
 "ein": "582610190",
@@ -755,7 +762,8 @@
 "charityName": "PIONEER HUMAN SERVICES",
 "accepted_categories": "1, 2, 3, 5, 6",
 "longitude": "-122.333061",
-"latitude": "47.535984"
+"latitude": "47.535984",
+"amazonWishlist": "https://www.amazon.com/gp/registry/wishlist/19D0LFWKS9YXN"
 },
 {
 "ein": "911332055",
@@ -783,7 +791,8 @@
 "charityName": "PIKE MARKET SENIOR CENTER",
 "accepted_categories": "1, 2, 3, 5, 6, 7",
 "longitude": "-122.342064",
-"latitude": "47.610737"
+"latitude": "47.610737",
+"amazonWishlist": "https://www.amazon.com/gp/registry/wishlist/1QDB6RNZNQNDQ"
 },
 {
 "ein": "271309387",
@@ -811,7 +820,8 @@
 "charityName": "YOUTHCARE",
 "accepted_categories": "1, 2, 5, 7, 9",
 "longitude": "-122.300179",
-"latitude": "47.667992"
+"latitude": "47.667992",
+"amazonWishlist": "https://www.amazon.com/gp/registry/wishlist/36QG33VBND4GG"
 },
 {
 "ein": "912117602",
@@ -923,7 +933,8 @@
 "charityName": "FACING HOMELESSNESS",
 "accepted_categories": "1, 2, 3, 4, 5, 6, 8, 10, 12",
 "longitude": "-122.312317",
-"latitude": "47.659256"
+"latitude": "47.659256",
+"amazonWishlist": "https://www.amazon.com/gp/registry/wishlist/10WT5CGWI5BTA"
 },
 {
 "ein": "452780676",
@@ -951,7 +962,8 @@
 "charityName": "OPERATION NIGHTWATCH",
 "accepted_categories": "1, 2, 3, 4, 5, 6, 8, 10, 12",
 "longitude": "-122.339996",
-"latitude": "47.610001"
+"latitude": "47.610001",
+"amazonWishlist": "https://www.amazon.com/gp/registry/wishlist/2GR4DPB5L3HIO"
 },
 {
 "ein": "910934552",
@@ -1098,7 +1110,8 @@
 "charityName": "ELIZABETH HOME",
 "accepted_categories": "1, 2, 3, 4, 5, 6, 7, 9, 10, 12",
 "longitude": "-122.310539",
-"latitude": "47.665348"
+"latitude": "47.665348",
+"amazonWishlist": "https://www.amazon.com/gp/registry/wishlist/USOSPT1PPSL6"
 },
 {
 "ein": "800371556",
@@ -1126,7 +1139,8 @@
 "charityName": "MARYS PLACE SEATTLE",
 "accepted_categories": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12",
 "longitude": "-122.333817",
-"latitude": "47.615547"
+"latitude": "47.615547",
+"amazonWishlist": "https://smile.amazon.com/registry/wishlist/18YIFZM478CG4"
 },
 {
 "ein": "910568305",
@@ -1238,7 +1252,8 @@
 "charityName": "SEATTLE HOMELESS OUTREACH",
 "accepted_categories": "1, 2, 3, 4, 5, 6, 7, 9, 10, 12",
 "longitude": "-122.295873",
-"latitude": "47.718827"
+"latitude": "47.718827",
+"amazonWishlist": "https://www.amazon.com/gp/registry/wishlist/15VQ10NNBIY9Y"
 },
 {
 "ein": "823191004",
