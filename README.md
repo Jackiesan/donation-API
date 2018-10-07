@@ -1,24 +1,45 @@
-# README
+# Box It Up Donation API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This RESTful API was constructed with Rails.  The purpose of this API is to quickly serve information about Seattle charities accepting dontations.
 
-Things you may want to cover:
+## Functionality
 
-* Ruby version
+This API comes pre-packaged with most of the functionality that you will require. The following endpoints are implemented.
 
-* System dependencies
+### Categories
 
-* Configuration
+```
+GET /categories
+```
 
-* Database creation
+List all product categories. 
 
-* Database initialization
+```
+GET /categories/:id/organizations
+```
 
-* How to run the test suite
+List of organizations accepting specific category ID.
 
-* Services (job queues, cache servers, search engines, etc.)
+### Organizations
 
-* Deployment instructions
+```
+GET /organizations
+```
 
-* ...
+List all charity organizations.
+
+```
+GET /organizations/:id/categories
+```
+
+List of categories organization is accepting.
+
+```
+GET /orgs?ein=<ein identification number>
+```
+
+Return organization with matching EIN.
+
+
+
+
